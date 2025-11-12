@@ -18,3 +18,10 @@ def read_usuario(usuario_id: int):
 @app.post("/usuarios/")
 def criar_usuario(usuario: dict):
     return {"mensagem": "Usuário criado com sucesso!", "dados": usuario}
+
+
+# rota get com 2 parametros
+@app.get("/calcular/{vr1}/{vr2}")
+def calcular(vr1: int, vr2:int):
+    total = vr1 * vr2
+    return {"mensagem": "Calculo", "resultado": total}
