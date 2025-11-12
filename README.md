@@ -21,11 +21,11 @@ GET /usuarios/{id} → retorna dados simulados de um usuário
 
 POST /usuarios/ → recebe dados JSON e retorna uma resposta
 
-## Pra rodar
+## Pra rodar localmente
 uvicorn main:app --reload
 Use:
 
-## 1. Rodar o servidor ouvindo em todas as interfaces
+## 1. Rodar o servidor ouvindo em todas as interfaces 
 
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
