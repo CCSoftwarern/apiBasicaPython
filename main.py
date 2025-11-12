@@ -12,6 +12,7 @@ def read_root():
 # rota com parâmetro
 @app.get("/usuarios/{usuario_id}")
 def read_usuario(usuario_id: int):
+    
     return {"usuario_id": usuario_id, "nome": f"Usuário {usuario_id}"}
 
 # rota POST
