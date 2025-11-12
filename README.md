@@ -23,3 +23,11 @@ POST /usuarios/ → recebe dados JSON e retorna uma resposta
 
 ## Pra rodar
 uvicorn main:app --reload
+Use:
+
+🧱 1. Rodar o servidor ouvindo em todas as interfaces
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+
+🔹 --host 0.0.0.0 faz o servidor aceitar conexões de qualquer IP.
+🔹 --port 8000 define a porta (pode mudar se quiser).
