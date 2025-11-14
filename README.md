@@ -21,6 +21,8 @@ GET /usuarios/{id} → retorna dados simulados de um usuário
 
 POST /usuarios/ → recebe dados JSON e retorna uma resposta
 
+GET /calcular/50/85  → retorna calulo de dois numeros
+
 ## Pra rodar localmente
 uvicorn main:app --reload
 Use:
